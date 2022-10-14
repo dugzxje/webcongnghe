@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    background: #ddd
+    }
+    .actionForm {
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    }
+    .actionForm input[type="text"],
+    .actionForm input[type="password"]
+    {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 100%;
+    }
+    .actionForm button[type="submit"] {
+    padding: 10px;
+    background: blue;
+    color: #fff;
+    border: 0;
+    outline: 0;
+}
+.khung{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.ben-phai{
+    float: right;
+}
+.tim-kiem{
+    width: 250px;
+    padding: 5px 15px;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+}
+.nut-tim-kiem{
+    background-color: white;
+    border: 1px solid gainsboro;
+    line-height: 15px;
+    padding: 5px;
+    margin-left: -5px;
+}
+.khung-co{
+    float: right;
+    margin-left: 25px;
+    margin-top: 4px;
+}nav{
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    z-index: 1;
+    position: relative;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.banner{
+    width: 100%;
+    margin-top: -48px; 
+}
+footer{
+    background-color: gainsboro;
+    min-height: 300px;
+}
+footer .khung div{
+    float: left;
+}
+.cot-1{
+    width: 50%;
+}
+.cot-2{
+    width: 50%;
+}
+.cot-2-1{
+    width: 100%;
+}
+.link-tieu-de{
+    display: block;
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.nut-dang-nhap{
+    color:white;
+    background-color: red; 
+    border: 1px solid black;
+    line-height: 15px;
+    padding: 5px;
+    margin-left: -5px; 
+    width: 100px; 
+    margin-left: 15px;
+}
+.link-fb{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: none;
+    font-weight: bold;
+}
+.link-yt{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: none;
+    font-weight: bold;
+}
